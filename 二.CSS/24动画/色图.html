@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes myanim {
+            14% {
+                width: 100px;
+                height: 400px;
+                background-color: red;
+            }
+
+            28% {
+                width: 200px;
+                height: 400px;
+                background-color: blue;
+            }
+
+            42% {
+                width: 300px;
+                height: 400px;
+                background-color: red;
+            }
+
+            56% {
+                width: 400px;
+                height: 400px;
+                background-color: blue;
+            }
+
+            70% {
+                width: 300px;
+                height: 400px;
+                background-color: red
+            }
+
+            84% {
+                width: 200px;
+                height: 400px;
+                background-color: blue;
+            }
+
+            98% {
+                width: 300px;
+                height: 400px;
+                background-color: red
+            }
+        }
+
+        div {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin: 0 auto;
+            animation: myanim 5s linear 0s infinite;
+        }
+
+        div:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>
